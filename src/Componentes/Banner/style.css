@@ -1,0 +1,50 @@
+
+/* 1° imagem com o efeito parallax */
+.container-parallax1 {
+
+    background-image: url(/public/assets/IMGBANNER.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    background-color: #000000;
+    
+}
+
+.container-parallax1 h1 {
+
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+
+
+    font-weight: 600;
+    font-family: "Fraunces", serif;
+    font-size: 75px;
+
+    color: #ffdfdd;
+    text-shadow: 2px 2px 2px #000000;
+
+    text-align: center;
+}
+
+.container-parallax1 h3 {
+
+    position: absolute;
+    top: 55%;
+    right: 0;
+    left: 0;
+
+    font-weight: 200;
+    font-family: "Fraunces", serif;
+    font-size: 50px;
+
+    color: #d2b9bf;
+    text-shadow: 2px 2px 2px #000000;
+
+    text-align: center;
+
+
+}

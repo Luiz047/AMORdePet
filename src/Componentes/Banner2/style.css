@@ -1,0 +1,12 @@
+.container-parallax2 {
+
+    
+    background-image: url(/public/assets/caoBanho.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 40vh;
+
+}

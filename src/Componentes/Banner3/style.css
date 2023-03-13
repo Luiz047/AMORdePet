@@ -1,0 +1,11 @@
+.container-parallax3 {
+
+    background-image: url(/public/assets/DogLaptop.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    background-color: #000000;
+    
+}
