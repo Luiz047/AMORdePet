@@ -9,19 +9,20 @@
     background-attachment: fixed;
     height: 80vh;
     background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     
 }
 
 .container-parallax1 h1 {
 
-    position: absolute;
-    top: 45%;
-    right: 0;
-    left: 0;
+   
 
 
-    font-weight: 600;
-    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
     font-size: 75px;
 
     color: #ffdfdd;
@@ -31,14 +32,10 @@
 }
 
 .container-parallax1 h3 {
-
-    position: absolute;
-    top: 55%;
-    right: 0;
-    left: 0;
+  
 
     font-weight: 200;
-    font-family: "Fraunces", serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 50px;
 
     color: #d2b9bf;
@@ -47,4 +44,22 @@
     text-align: center;
 
 
+}
+
+@media(max-width: 450px) {
+
+    .container-parallax1 {
+        background-image: url(/public/assets/IMGBANNER2.png);
+
+    }
+
+    .container-parallax1  h1{
+
+        font-size: 55px;
+    }
+
+    .container-parallax1  h3{
+
+        font-size: 35px;
+    }
 }

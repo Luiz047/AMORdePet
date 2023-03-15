@@ -10,3 +10,10 @@
     height: 40vh;
 
 }
+@media(max-width: 450px) {
+
+    .container-parallax2 {
+        background-image: url(/public/assets/caoBanho2.jpg);
+
+    }
+}

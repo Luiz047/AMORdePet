@@ -8,8 +8,8 @@
   
       text-align: center;
       padding: 30px;
-      border-top: 1px solid rgb(0, 0, 0);
-      color: #ffffff;
+      border-top: 1px solid #252525;
+      color:#ffffff;
       font-weight: 600;
       width: 100%;
       padding-top: 30px;
@@ -17,17 +17,17 @@
     }
     
     .rodape {
-        background: rgb(246,179,178);
-        background: linear-gradient(139deg, rgba(246,179,178,1) 0%, rgba(244,215,222,1) 19%, rgba(230,191,200,1) 49%, rgba(250,204,203,1) 73%, rgba(255,190,188,1) 89%, rgba(251,144,142,1) 100%);;
+        background: #252525;
+      
       color:#ffffff;
-      text-shadow: 2px 2px 3px  #000000
+      text-shadow: 2px 2px 3px  #E7C0C9
     }
     
     .rodape h4 {
       font-size: 20px;
       font-style: italic;
       margin-left: 20px;
-      text-shadow: 2px 2px 3px  #000000
+      text-shadow: 2px 2px 2px  #E7C0C9
     }
     
     .rodape-container {
@@ -45,11 +45,11 @@
     
     .rodape-link{
       margin-right: 10px;
-      color: #ffffff;
+      color:#ffffff;
       text-decoration: none;
       font-style: italic;
       padding: 10px;
-      text-shadow: 2px 2px 3px  #000000
+      text-shadow: 2px 2px 2px  #E7C0C9
       
       
   
@@ -65,7 +65,7 @@
       text-decoration: none;
       color: #ffffff;
       font-style: italic;
-      text-shadow: 2px 2px 3px  #000000;
+      text-shadow: 2px 2px 2px #E7C0C9;
       
   }
   .footP {

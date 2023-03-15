@@ -6,6 +6,10 @@ import Sobre from './Componentes/Sobre';
 import Banner2 from './Componentes/Banner2';
 import Banner3 from './Componentes/Banner3';
 import Footer from './Componentes/Footer';
+import Planos from './Componentes/Planos';
+import RedeSocias from './Componentes/RedeSocias';
+import Iframe from './Componentes/Iframe';
+import Horarios from './Componentes/Horarios';
 
 function App() {
   return (
@@ -14,9 +18,11 @@ function App() {
         <Banner/>
         <Sobre/>
         <Banner2/>
-        <Sobre/>
+        <Planos/>
         <Banner3/>
-        <Sobre/>
+        <RedeSocias/>
+        <Iframe/>
+        <Horarios />
         <Footer/>
     </div>
   );

@@ -11,3 +11,20 @@
   margin: 0 auto ;
 
 }
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #F1B5D4;
+}

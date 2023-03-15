@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    background-color: #252525;
+    color: white;
+}
+
+.container p {
+
+    padding: 1rem;
+}
+
+.container h1 {
+
+    letter-spacing: 6px;
+    font-family: 'Tilt Warp', cursive;
+    text-shadow: 1px 1px 2px rgb(17, 0, 255);
+
+}

@@ -1,0 +1,46 @@
+.container-parallax5 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252525;
+    color: rgb(0, 0, 0);
+}
+
+.container-parallax5 h2 {
+ 
+    margin: 2rem 0;
+    letter-spacing: 6px;
+    color: rgb(255, 255, 255);
+    font-family: 'Tilt Warp', cursive;
+}
+
+.AreaHorario {
+
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.DIA {
+     
+    max-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    border-radius: 1rem;
+
+}
+
+
+.DIA  h3{
+    color: rgb(0, 0, 0);
+    margin-right: 7rem;
+}
+
+.DIA p {
+
+    color: rgb(0, 0, 0);
+}

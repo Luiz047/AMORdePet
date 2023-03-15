@@ -8,9 +8,9 @@ function Topo() {
       <img src="./assets/logoAPET.png" alt="logomarca" />
        </figure>
       <nav className='Link'>
-        <a href="#informacoes"> INFORMAÇÕES </a>
-        <a href="#contatos"> CONTATOS </a>
-        <a href="#horarios"> HORÁRIOS </a>
+        <a href="#Sobre"> Sobre </a>
+        <a href="#Planos"> Planos </a>
+        <a href="#FaleConosco"> Fale conosco </a>
       </nav>
     </header>
   );

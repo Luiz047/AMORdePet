@@ -9,3 +9,10 @@
     background-color: #000000;
     
 }
+@media(max-width: 450px) {
+
+    .container-parallax3 {
+        background-image: url(/public/assets/DogLaptop.jpg);
+
+    }
+}
