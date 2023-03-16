@@ -20,11 +20,17 @@ html {
 
 ::-webkit-scrollbar-track {
   background-color: #ffffff;
+  border-radius: 1rem;
 }
 ::-webkit-scrollbar {
   width: 6px;
   background: #ffffff;
+  border-radius: 1rem;
 }
 ::-webkit-scrollbar-thumb {
   background: #F1B5D4;
+  border-radius: 1rem;  
+}
+:target {
+  scroll-margin-top: 60px;
 }

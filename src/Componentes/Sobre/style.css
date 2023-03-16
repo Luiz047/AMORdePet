@@ -8,6 +8,7 @@ section{
 
 .Boxsobre {
     
+    
     padding: 5rem;
       border: 2px solid rgba(207, 153, 137, 0.886) ;
      border-radius: 2rem;
@@ -56,6 +57,7 @@ div img {
     margin: 2rem 2rem;
     width: 1024px;
     box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    
 
 
 }
@@ -64,7 +66,8 @@ div img {
     font-size: 2.2rem;
     letter-spacing: 6px;
     font-family: 'Tilt Warp', cursive;
-    text-shadow: 1px 1px 2px rgb(214, 214, 214);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: white;
 }
 
 .SOBRE {
@@ -73,11 +76,73 @@ div img {
     background: linear-gradient(139deg, rgba(246,179,178,1) 0%, rgba(244,215,222,1) 19%, rgba(230,191,200,1) 49%, rgba(250,204,203,1) 73%, rgba(255,190,188,1) 89%, rgba(251,144,142,1) 100%);;
 }
 
-@media(max-width: 450px) {
+@media(min-width:1124px) and (max-width:1274px) {
+
+    .Boxsobre {
+    
+        padding: 1rem;
+    }
+    .lateralline{
+
+        margin: 1rem 0.2rem;
+        padding: 1rem;
+    }
+    .Boxsobre p {
+        
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+     
+    }
+    
+
+}
+
+@media(min-width: 900px) and (max-width:1124px){
+
+    .Boxsobre {
+        width: 85%;
+        padding: 0.2rem;
+    }
+    .lateralline{
+
+        width: 100%;
+        margin: 0.3rem 0.3rem;
+        flex-direction: column-reverse;
+    }
+    .Boxsobre p {
+        
+        font-size: 1.3rem;
+     
+    }
+
+
+}
+@media(min-width: 600px) and (max-width:900px){
+
+    .lateralline img{
+    
+        display: none;
+        overflow: hidden;
+      }
+
+      .Boxsobre {
+        width: 85%;
+        padding: 0.2rem;
+    }
+    .lateralline{
+
+        width: 100%;
+        margin: 0.3rem 0.3rem;
+    }
+}
+
+
+
+@media(max-width: 600px) {
 
     .Boxsobre p {
-        width: 80%;
-        font-size: 0.9rem;
+        width: 75%;
+        font-size: 0.7rem;
      
     }
      
@@ -85,13 +150,14 @@ div img {
 
         font-size: 1rem;
         letter-spacing: 2px;
+        text-align: center;
     }
 
     .lateralline {
 
         padding: 0px;
         margin: 5px 5px;
-        width: 350px;
+        width: 100%;
     }
     .lateralline img{
     
@@ -99,7 +165,7 @@ div img {
       overflow: hidden;
     }
     .Boxsobre {
-
+        width: 80%;
         padding: 15px ;
     }
 

@@ -75,6 +75,7 @@
     font-size: 2.5EM;
     font-family: 'Tilt Warp', cursive;
     text-shadow: 1px 1px 2px rgb(214, 214, 214);
+    text-align: center;
 
 }
 
@@ -92,27 +93,133 @@
     transition: all 0.5s ease-in-out;
 
 }
-@media(max-width: 450px) {
+@media(min-width: 1320px) and (max-width: 1620px) {
+
+    .PlanosBox {
+        
+       
+        padding: 1rem;
+    }
+    .card {
+
+        margin: 0 0.8rem;
+    }
+    .PlanosContainer{ 
+    
+        height: 700px ;
+  }
+    .card img {
+
+    width: 18rem;
+    height: 13rem;
+
+    }
+
+}
+
+@media(min-width:900px) and (max-width:1320px){
 
     .Tabela {
 
-        width: 340px;
+        width: 720px;
+        overflow-x: scroll;
+    }
+    
+    .card button {
+
+        margin-top: 40px;
+
+    }
+
+    .card:hover{
+        
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    
+    }
+
+}
+@media(min-width: 770px) and (max-width:900px){
+
+    .Tabela {
+
+        width: 720px;
+        overflow-x: scroll;
+        margin-bottom: 10px;
+    }
+    
+    .card button {
+
+        margin-top: 40px;
+
+    }
+
+    .card:hover{
+        
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    
+    }
+    .PlanosBox {
+
+        padding: 1rem;
+    }
+
+}
+
+@media(min-width: 550px) and (max-width:770px){
+
+    .Tabela {
+
+        width: 100%;
+        overflow-x: scroll;
+        margin-bottom: 10px;
+    }
+    
+    .card button {
+
+        margin-top: 40px;
+
+    }
+
+    .card:hover{
+        
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    
+    }
+    .PlanosBox {
+        width: 90% ;
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 550px) {
+
+    .Tabela {
+
+        width: 95%;
         overflow-x: scroll;
     }
 
     .titulo {
     
-         font-size: 0.8rem;
+         font-size: 1rem;
     }
     .card h3, p, button{
 
         margin: 0.5rem;
     }
     .PlanosBox {
+        width: 90%;
+        padding: 1rem;
+    }
+    .Tabela {
 
-        padding: 2rem;
+        width: 100%;
     }
     .card:hover{
+
         transform: scale(1);
         transition: all 0.5s ease-in-out;
     
