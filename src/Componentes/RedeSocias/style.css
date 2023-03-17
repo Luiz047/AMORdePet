@@ -69,8 +69,12 @@
 .lateralicon:hover{
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
+    background-color: #B39D80 ;
 
 }
+
+
+
 @media(min-width:900px) and (max-width:1020px) {
 
 

@@ -25,7 +25,6 @@
     
 }
 
-
 .card {
 
     display: flex;
@@ -39,9 +38,6 @@
     margin: 0 1.2rem ;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
-    
-
-
 }
 
 .card img {
@@ -54,18 +50,6 @@
 
     margin: 1rem;
     font-family: 'Prompt', sans-serif;
-}
-
-.card button {
-
-    padding: 10px;
-    margin-top: 60px;
-    border-radius: 16px;
-    border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    color: #ffffff;
-    background-color: #5080E0;;
-
 }
 
 .titulo {
@@ -88,11 +72,65 @@
 
     font-size: 22px;
 }
+
 .card:hover{
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 
 }
+
+.preco{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1a2271;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+    cursor: -webkit-grabbing;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+   .btn {
+
+    color: white;
+    text-decoration: none;
+   }
+
+
+
 @media(min-width: 1320px) and (max-width: 1620px) {
 
     .PlanosBox {

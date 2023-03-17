@@ -18,7 +18,7 @@
     
     .rodape {
         background: #252525;
-      
+      white-space: nowrap;
       color:#ffffff;
       text-shadow: 2px 2px 3px  #E7C0C9
     }
@@ -27,7 +27,8 @@
       font-size: 20px;
       font-style: italic;
       margin-left: 20px;
-      text-shadow: 2px 2px 2px  #E7C0C9
+      text-shadow: 2px 2px 2px  #E7C0C9;
+      white-space: pre-wrap;
     }
     
     .rodape-container {
@@ -77,12 +78,12 @@
   
     .footP {
   
-    font-size: 12px;
+    font-size: 10px;
   
     }
   
     .rodape h4 {
-      font-size: 14px;
+      font-size: 12px;
       
     }
   }

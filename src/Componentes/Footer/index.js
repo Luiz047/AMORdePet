@@ -15,7 +15,6 @@ function Footer() {
             <p className="footP">
               
               📌 Itapema - Sc
-              
             </p>
           </a>
     
@@ -23,7 +22,7 @@ function Footer() {
             
     
             <p className="footP">
-            🚘 Busca e Leva 🚘  </p>
+            🚘 Busca e Leva</p>
             
           </div>
     
@@ -31,7 +30,7 @@ function Footer() {
             
     
             <p className="footP">
-            📳 (47) 991194514 📳
+            📳 (47) 991194514 
             </p>
           </a>
     
