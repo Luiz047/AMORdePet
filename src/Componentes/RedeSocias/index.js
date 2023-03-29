@@ -4,8 +4,8 @@ import './style.css';
 function RedeSocias() {
   return (
 <section className="RDContainer" id="FaleConosco">
+ <h3 className="title">CONFIRA NOSSAS REDES SOCIAIS</h3>
    <div className="RDBox">
-            <h3 className="title">CONFIRA NOSSAS REDES SOCIAIS</h3>
    <nav className="links">
          <div className="lateralicon">
             <img src="./assets/instagram.png" className="imgicon"/>

@@ -1,7 +1,10 @@
 .RDContainer {
     width: 100%;
-    background-color: #B39D80;
-
+    background: linear-gradient(150deg,#796245,#baa180, #dcbb91, #baa180,#6b5a45);;
+    background-size: 400% 400%;
+    animation: Colors 5s ease infinite;
+    display: flex;
+    flex-direction: column;
 }
 
 .RDBox {
@@ -24,9 +27,11 @@
 .title {
 
     letter-spacing: 6px;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    text-shadow: 1px 1px 2px rgb(214, 214, 214);
+    margin-bottom: 20PX;
+    font-size: 2.5EM;
+    font-family: 'Tilt Warp', cursive;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: white;
     text-align: center;
 }
 
@@ -39,7 +44,7 @@
 .icon {
 
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
     text-decoration: none;
     color: white;
 
@@ -69,7 +74,9 @@
 .lateralicon:hover{
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
-    background-color: #B39D80 ;
+    background: linear-gradient(150deg,#796245,#baa180, #dcbb91, #baa180,#6b5a45);;
+    background-size: 400% 400%;
+    animation: Colors 5s ease infinite;
 
 }
 

@@ -1,19 +1,23 @@
 .PlanosContainer {
 
-    background-color: #ADCBEF;
+    background: linear-gradient(150deg,#448fd1,#4da1d5,#7ec0e9,#88bdde ,#93c3d6);
+    background-size: 400% 400%;
+    animation: Colors 6s ease infinite;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .PlanosBox {
 
     background-color: white;
     padding: 5rem;
-      border: 2px solid rgba(21, 21, 21, 0.886) ;
-     border-radius: 2rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.551);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 6px 5px 40px rgba(0, 0, 0, 0.551);
 }
 
 .Tabela {
@@ -21,62 +25,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 
 .card {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border-radius: 2rem;
-    background-color: #adcbef;
     color: white;
     text-shadow: 2px 3px 3px #000000 ;
     margin: 0 1.2rem ;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
+    box-shadow: 6PX 8px 30px 0 rgba(0, 0, 0, 0.414);
+    background: linear-gradient(50deg,#448fd1,#4da1d5,#7ec0e9,#88bdde ,#93c3d6);
+    background-size: 400% 400%;
+    animation: Colors 9s ease infinite;
 }
 
 .card img {
-
     width: 20rem;
     height: 15rem;
 }
 
 .card h3, p, button{
-
     margin: 1rem;
     font-family: 'Prompt', sans-serif;
 }
 
 .titulo {
-
     letter-spacing: 6px;
     margin-bottom: 20PX;
     font-size: 2.5EM;
     font-family: 'Tilt Warp', cursive;
-    text-shadow: 1px 1px 2px rgb(214, 214, 214);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: white;
     text-align: center;
-
 }
 
 .imgcard {
-
     border-radius: 1rem 1rem 0 0 ;
 }
 
 .nomepct {
-
     font-size: 22px;
 }
 
 .card:hover{
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
-
 }
 
 .preco{
@@ -84,12 +80,12 @@
     font-family: 'Lobster', cursive;
 }
 button {
-    padding: 15px 25px;
+    padding: 12px 25px;
     border: unset;
-    border-radius: 15px;
+    border-radius: 20px;
     color: #212121;
     z-index: 1;
-    background: #e8e8e8;
+    background: #99bee1e1;
     position: relative;
     font-weight: 1000;
     font-size: 17px;
@@ -106,8 +102,8 @@ button {
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
-    background-color: #1a2271;
+    border-radius: 12px;
+    background-color: #2857a8 ;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -124,41 +120,30 @@ button {
    }
 
    .btn {
-
-    color: white;
+    color: #000000;
     text-decoration: none;
    }
-
-
 
 @media(min-width: 1320px) and (max-width: 1620px) {
 
     .PlanosBox {
-        
-       
         padding: 1rem;
     }
     .card {
-
         margin: 0 0.8rem;
     }
     .PlanosContainer{ 
-    
         height: 700px ;
   }
     .card img {
-
     width: 18rem;
     height: 13rem;
-
-    }
-
+    
 }
-
+}
 @media(min-width:900px) and (max-width:1320px){
 
     .Tabela {
-
         width: 720px;
         overflow-x: scroll;
     }
@@ -177,10 +162,10 @@ button {
     }
 
 }
+
 @media(min-width: 770px) and (max-width:900px){
 
     .Tabela {
-
         width: 720px;
         overflow-x: scroll;
         margin-bottom: 10px;

@@ -1,27 +1,21 @@
 section{
-
-     height: 900px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .Boxsobre {
-    
-    
     padding: 5rem;
-      border: 2px solid rgba(207, 153, 137, 0.886) ;
-     border-radius: 2rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.551);
-     
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 
 .Boxsobre p {
-
     font-size: 1.4rem;
     line-height: 1.6;
     width: 80%;
@@ -32,21 +26,13 @@ section{
    
 }
 div img {
-
     width: 20rem;
     height: 20rem;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.551);
     border-radius: 0rem;
-    ;
-    
-
- 
-    
-    
 }
 
 .lateralline {
-
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -57,12 +43,9 @@ div img {
     margin: 2rem 2rem;
     width: 1024px;
     box-shadow: 2px 2px 15px rgb(0, 0, 0);
-    
-
-
 }
-.Boxsobre h2 {
 
+.Boxsobre h2 {
     font-size: 2.2rem;
     letter-spacing: 6px;
     font-family: 'Tilt Warp', cursive;
@@ -71,10 +54,26 @@ div img {
 }
 
 .SOBRE {
-
-    background: rgb(246,179,178);
-    background: linear-gradient(139deg, rgba(246,179,178,1) 0%, rgba(244,215,222,1) 19%, rgba(230,191,200,1) 49%, rgba(250,204,203,1) 73%, rgba(255,190,188,1) 89%, rgba(251,144,142,1) 100%);;
+    background: linear-gradient(139deg, rgba(251,144,142,1) 0%, rgba(250,204,203,1) 19%, rgb(247, 162, 182) 49%, rgba(250,204,203,1) 73%, rgba(255,190,188,1) 89%);
+    background-size: 400% 400%;
+    animation: Colors 9s ease infinite;
 }
+
+@keyframes Colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
 
 @media(min-width:1124px) and (max-width:1274px) {
 
